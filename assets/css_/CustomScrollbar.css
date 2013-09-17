@@ -1,0 +1,95 @@
+section.bg-terminos2 .content {
+	width:535px;
+	height:340px;	
+	overflow:auto;
+	margin: auto;
+	position: relative;
+	top: 60px;	
+}
+section.bg-terminos2 .content p, li{
+	color: #434343;
+	font-size: "Tahoma";
+	font-size: 14px;
+}
+section.bg-terminos2 .content p a,
+section.bg-terminos2 .content li a{
+	color: #434343;
+	text-decoration: underline;
+}
+section.bg-terminos2 .content p{	
+	margin-bottom: 15px;
+}
+section.bg-terminos2 .content ul,
+section.bg-terminos2 .content ol{
+	margin:8px 0 9px 30px;
+}
+section.bg-terminos2 .content ul li{
+	margin-bottom: 8px;
+}
+.mCSB_container{
+	width:auto;
+	margin-right:30px;
+	overflow:hidden;
+}
+.mCSB_container.mCS_no_scrollbar{
+	margin-right:0;
+}
+.mCS_disabled .mCSB_container.mCS_no_scrollbar,
+.mCS_destroyed .mCSB_container.mCS_no_scrollbar{
+	margin-right:30px;
+}
+.mCustomScrollBox .mCSB_scrollTools{
+	width:16px;
+	height:100%;
+	top:0;
+	right:0;
+}
+.mCSB_scrollTools .mCSB_draggerContainer{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0; 
+	height:auto;
+}
+.mCSB_scrollTools a+.mCSB_draggerContainer{
+	margin:20px 0;
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+	width:2px;
+	height:100%;
+	margin:0 auto;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+.mCSB_scrollTools .mCSB_dragger{
+	cursor:pointer;
+	width:100%;
+	height:30px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:4px;
+	height:100%;
+	margin:0 auto;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	text-align:center;
+}
+
+/* horizontal scrollbar */
+.mCustomScrollBox{
+	-ms-touch-action:none; 
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+	width:5px;
+	background:#c0b3a3;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	background:#cd0814; 
+	width:5px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover{
+	opacity: 0.7;
+}

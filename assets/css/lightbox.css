@@ -1,0 +1,76 @@
+	@charset "utf-8";
+/* CSS Document */
+*
+{border:0;padding:0;margin:0;}
+.clr{clear:both;float:none;}
+body{font-size: 16px;font-family: "Arial";/*background: url("../images/bg-lightbox.png");*/}
+a, img, input:focus{outline: none;}
+.bg-inter-face-lightbox{
+	width: 806px;
+	height: 440px;
+	/*margin:5% auto 0;*/
+	position: relative;
+	z-index: 4;	
+	background: url("../images/bg-interfase.png") no-repeat bottom center;
+}
+.bg-inter-face-lightbox .close{
+	cursor: pointer;
+	position: absolute;
+	right: 54px;
+    top: 1px;
+}
+.bg-inter-face-lightbox-generico{
+	width: 273px;
+	height: 208px;
+	margin:5% auto 0;
+	position: relative;
+	z-index: 4;
+	-moz-box-shadow: 0 0 7px #0c0c0c;
+	-webkit-box-shadow: 0 0 7px #0c0c0c;
+	box-shadow: 0 0 7px #0c0c0c;
+	background: url("../images/generico.png") repeat top center;
+}
+.bg-inter-face-lightbox-generico .close{
+	cursor: pointer;
+	position: absolute;
+	right: 16px;
+    top: -34px;
+}
+.bg-inter-face-lightbox-generico article{
+	width: 81%;
+	margin: auto;
+	position: relative;
+	top: 25px;
+}
+.bg-inter-face-lightbox-generico article h2{
+	color: #B8A494;
+	text-align: center;
+    font-family: 'giorgioregular';
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;   
+}
+.bg-inter-face-lightbox-generico article p{
+	color: #B8A494;
+    font-family: 'giorgioregular';
+    font-size: 12px;
+    text-align: justify;
+}
+a.botoms{
+	color: #432a1a;
+    font-family: 'giorgioregular';
+    font-size: 12px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    text-decoration: none;
+    line-height: 36px;
+    float: left;
+    margin-top: 5px;
+    background: url("../images/bg-botom.png") repeat-x top center;
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+	width:12px;	
+	background:#b9a597 !important; 
+}

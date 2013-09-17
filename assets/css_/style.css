@@ -1,0 +1,744 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{border:0;padding:0;margin:0;}
+.clr{clear:both;float:none;}
+
+body
+{
+	font-size: 16px;
+	font-family: "Arial";
+}
+a, img, input:focus{outline: none;}
+
+section#home{
+	background-color: #6F153A;
+    height: auto;
+    margin: auto;
+    width: 810px;
+}
+.wrapper-home{
+	background-color: #6F153A;
+    min-height: 600px;
+    margin: auto;
+    position: relative;
+    width: 810px;
+}
+header{
+	width: 100%;
+	height: 148px;
+	margin: auto;
+	/*background: url("../images/bg-header.png") no-repeat top center;*/
+	position: relative;
+	z-index: 1;
+}
+header figure{
+	float: left;
+	width:127px;
+	height:81px;
+	margin-top:14px;
+	margin-left: 15px;
+	transition: all 1s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+}
+header figure:hover{
+	-moz-transform: scale(0.98);
+	-webkit-transform: scale(0.98);
+	-o-transform: scale(0.98);
+}
+header nav{
+	float: right;
+	width:584px;
+	height:54px;
+	margin-top: 5px;
+	background: url("../images/bg-nav.png") no-repeat top center;
+	position: relative;
+	z-index: 1;
+}
+header nav ul{
+	float: left;
+	list-style: none;
+}
+header nav ul li{
+	color: #7f4f28;
+	float: left;
+}
+header nav ul li a{
+	color: #7f4f28;
+	text-decoration: none;
+	float: left;
+	text-align: center;
+	line-height: 41px;
+	font-size: 13px;
+	font-family: 'itc_avant_garde_pro_mdbold';
+}
+header nav ul li#inicio a{
+	width: 82px;
+	height: 41px;
+	background: url("../images/icono/nav-inicio.png") no-repeat top center;
+	margin-top: 5px;
+	margin-left: 6px;
+}
+header nav ul li#jugar a{
+	width: 81px;
+	height: 41px;
+	background: url("../images/icono/nav-jugar.png") no-repeat top center;
+	margin-top: 6px;
+}
+header nav ul li#como-jugar a{
+	width: 126px;
+	height: 41px;
+	background: url("../images/icono/nav-como-jugar.png") no-repeat top center;
+	margin-top: 4px;
+}
+header nav ul li#terminos a{
+	width: 193px;
+	height: 41px;
+	background: url("../images/icono/nav-terminos.png") no-repeat top center;
+	margin-top: 4px;
+}
+header nav ul li#premios a{
+	width: 82px;
+	height: 41px;	
+	background: url("../images/icono/nav-premios.png") no-repeat top center;
+	margin-top: 4px;
+}
+li#inicio a:hover, li#jugar a:hover,
+li#como-jugar a:hover, li#terminos a:hover,
+li#premios a:hover, section#mesa-home #jugar a:hover,
+li#inicio a.active, li#jugar a.active,
+li#como-jugar a.active, li#terminos a.active,
+li#premios a.active {
+	background-position: center bottom;
+	color: #f1eadd;
+}
+section#mesa-home{
+	width: 100%;
+	height: 592px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	/*background: url("../images/bg-mesa-home.jpg") no-repeat bottom center;*/
+}
+section#mesa-home.height{
+	height: 546px !important;
+	/*background: url("../images/bg-mesa-pre-home.jpg") no-repeat bottom center;*/
+}
+section#mesa-home.height article#caracteristicas{
+	margin-top: 80px;
+}
+section#mesa-home.height article#productos #contenido .icono-producto h3.ultimo{
+	width: 117px;
+	margin-top: 14px;
+}
+section#mesa-home figure{
+	float: left;
+	width:159px;
+	height:332px;
+	margin-left: 16px;
+    margin-top: 46px;
+    -webkit-transition: margin 0.5s ease-out;
+	-moz-transition: margin 0.5s ease-out;
+	-o-transition: margin 0.5s ease-out;
+}
+section#mesa-home figure#pre-home{
+	float: left;
+	width:187px;
+	height:437px;
+	margin-left: 16px;
+    margin-top: 46px;
+    -webkit-transition: margin 0.5s ease-out;
+	-moz-transition: margin 0.5s ease-out;
+	-o-transition: margin 0.5s ease-out;
+}
+section#mesa-home figure#pre-home:hover{margin-top: 38px;}
+
+section#mesa-home figure:hover{margin-top: 40px;}
+
+section#mesa-home article#caracteristicas{
+	float: left;
+	width:255px;
+	height:196px;
+	margin-left: 27px;
+	margin-top: 44px;
+	background: url("../images/bg-marco-home.png") no-repeat bottom center;
+	position: relative;
+	z-index: 1;
+}
+section#mesa-home article#caracteristicas p{
+	float: left;
+	color: #eff1ec;
+	font-size: 0.9em;
+	width: 200px;
+	margin-top: 25px;
+	margin-left: 18px;
+	font-family: 'itc_avant_garde_pro_mdmedium';
+}
+section#mesa-home article#caracteristicas h2{
+	font-size: 1.4em;
+	color: #e6c78b;
+	float: right;
+	width: 134px;
+	padding-right: 15px;
+	margin-right: 40px;
+	margin-top: 13px;
+	background: url("../images/icono/colcafe-apuntador-home.png") no-repeat bottom right;
+	font-family: 'itc_avant_garde_pro_mdmedium';
+	font-weight: normal;
+	line-height: 25px;
+	-webkit-transition: margin 0.5s ease-out;
+	-moz-transition: margin 0.5s ease-out;
+	-o-transition: margin 0.5s ease-out;
+}
+section#mesa-home article#caracteristicas h2:hover{margin-right: 35px;}
+
+section#mesa-home article#caracteristicas h2 span{font-family: 'itc_avant_garde_pro_bkdemiBd';}
+
+section#mesa-home article#productos{
+	right: 102px;
+	width:285px;
+	height:393px;	
+	top: 0;
+	margin: 0;
+	position: absolute;
+	background: url("../images/bg-1contenido-home.png") no-repeat top center;
+}
+section#mesa-home article#productos.right{
+	right:60px;
+	top: 20px;
+}
+section#mesa-home article#productos #contenido{
+	float: left;
+	background: url("../images/bg-2contenido-home.png") no-repeat top center;
+	width:283px;
+	height: 344px;
+	position: relative;
+	z-index: 2;
+	padding-top: 31px;
+}
+section#mesa-home article#productos #contenido .icono-producto{
+	height: 57px;
+	line-height: 15px;
+	width: 225px;
+	float: left;
+	margin-left: 31px;
+	margin-bottom: 6px;
+}
+section#mesa-home article#productos #contenido .icono-producto figure{
+	float: left;	
+	width: 58px;
+	height: 57px;
+	margin: 0 8px 0 0;
+	transition: all 1s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+}
+section#mesa-home article#productos #contenido .icono-producto figure:hover{
+	-moz-transform:rotate(360deg);
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+}
+section#mesa-home article#productos #contenido .icono-producto h3{
+	font-size: 0.8em;
+	color: #502c1d;
+	font-weight: normal;
+	margin-top: 15px;
+	font-family: 'itc_avant_garde_pro_mdmedium';
+}
+section#mesa-home article#productos #contenido .icono-producto h3.ultimo{
+	float: left;
+    line-height: 15px;
+    margin-top: 4px;
+    width: 66px;
+}
+section#mesa-home article#productos #contenido .icono-producto h3.inicio{
+	line-height: 57px;
+	margin-top: 0;
+}
+section#mesa-home article#productos #contenido .icono-producto span{
+	float: left;
+	color: #502c1d;
+	font-size: 1em;
+	margin-right: 5px;
+	font-family: 'itc_avant_garde_pro_mdbold';
+	line-height: 57px;
+}
+section#mesa-home #jugar a{
+	background: url("../images/colcafe-te-consiente-btn-jugar.png") no-repeat top center;
+	width:208px;
+	height: 102px;
+	position: absolute;
+	z-index: 3;
+	right: 14px;
+	top: 284px;
+	text-indent: -9999px;
+}
+section#bottom-home{
+	width: 100%;
+	height:215px;		
+	position: absolute;
+	bottom: 0;
+}
+section#bottom-home #comercial a{
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 auto;
+	width: 145px;
+	height: 53px;
+	line-height: 49px;	
+	display: block;
+	text-align: right;
+	font-size: 0.9em;
+	padding-right: 40px;
+	font-family: 'itc_avant_garde_pro_mdbold';
+	font-weight: normal !important;
+	background: url("../images/colcafe-te-consiente-btn-comerciales.png") no-repeat top center;
+}
+section#bottom-home article{
+	width:234px;
+	height:109px;
+	background: url("../images/bgmarco-video.png") no-repeat top center;
+	float: left;
+	margin-left: 27px;
+	margin-top: 15px;
+	position: relative;
+}
+section#bottom-home article .play img{
+	height: 52px;
+    left: 78px;
+    position: absolute;
+    top: 21px;
+    width: 52px;
+    z-index: 9999;
+     transition: all 1s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+}
+section#bottom-home article .play img:hover{
+	-moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	opacity: 1;
+}
+section#bottom-home article img{
+	float: left;
+    margin-left: 5px;
+    margin-top: 7px; 
+    transition: all 1s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;  
+}
+section#bottom-home article img:hover{opacity: 0.7;}
+
+footer{
+	border-top: 1px solid #B29582;
+    left: 0;
+    margin: 5px auto 0;
+    padding-top: 5px;
+    position: relative;
+    right: 0;
+    width: 90%;
+    z-index: 1;
+}
+footer p{
+	text-align: center;
+	color: #fff;
+	font-size: 0.7em;
+	font-family: 'itc_avant_garde_pro_mdmedium';
+}
+a.smdigital{
+	width: 90px;
+	height: 15px;
+	margin: 8px auto 0;
+	display: block;
+}
+a.smdigital:hover{
+	opacity: 0.8;
+}
+p#pre-home{
+	color: #fff;
+	font-size: 0.9em;
+}
+p#pre-home span{
+	color: #e6c78b;
+	font-size: 1em;
+}
+h3#pre-home{
+	color: #e6c78b;
+	font-size: 0.9em;
+	width: 192px;
+	margin-left: 18px;
+	font-weight: normal;
+	font-family: 'itc_avant_garde_pro_mdmedium';
+	background: url("../images/icono/colcafe-apuntador-home.png") no-repeat bottom right;
+	-webkit-transition: margin 0.5s ease-out;
+	-moz-transition: margin 0.5s ease-out;
+	-o-transition: margin 0.5s ease-out;	
+}
+h3#pre-home:hover{
+	margin-left: 25px;	
+}
+h3#pre-home span{
+	color: #fff;
+	display: block;
+	text-align: right;
+	font-size: 1em;
+	margin-right: 34px;
+}
+.line{
+	width: 195px;
+	height: 1px;
+	margin: 10px 0 10px 14px;
+	clear: both;
+	float: left;
+	background: url("../images/line.png") repeat-x top center;
+}
+section#like{
+	width: 317px;
+	height: 143px;
+	background: url("../images/bg-like.png") no-repeat top center;
+	position: absolute;
+	right: 80px;
+	top: -10px;
+	z-index: 1;
+}
+section#like #btn-like{
+	width:80px;
+	height:97px;
+	float: right;
+	margin-right: 37px;   
+    animation: mover-like 1.5s infinite;
+	-moz-animation: mover-like 1.5s infinite;
+	-o-animation: mover-like 1.5s infinite;
+	-webkit-animation: mover-like 1.5s infinite;
+}
+@-moz-keyframes mover-like
+{
+	0%   {margin-top:21px;}
+	50%  {margin-top:26px;}
+	100% {margin-top:21px;}
+}
+@-webkit-keyframes mover-like
+{
+	0%   {margin-top:21px;}
+	50%  {margin-top:26px;}
+	100% {margin-top:21px;}
+}
+@-ms-keyframes mover-like
+{
+	0%   {margin-top:21px;}
+	50%  {margin-top:26px;}
+	100% {margin-top:21px;}
+}
+@keyframes mover-like
+{
+	0%   {margin-top:21px;}
+	50%  {margin-top:26px;}
+	100% {margin-top:21px;}
+}
+section#like h2{
+	color: #73675c;
+	font-size: 1.3em;
+	font-weight: normal !important;
+	font-family: 'itc_avant_garde_pro_mdmedium';
+	float: left;
+	width: 165px;
+	line-height: 22px;
+	margin-top: 30px;
+	margin-left:22px; 
+}
+section#like h2 span{
+	color: #502c1d;
+	font-size: 1.6em;
+	font-family: 'itc_avant_garde_pro_mdbold';
+}
+/*style premios*/
+header #title-premios{
+	position: absolute;
+	z-index: 0;
+	width:187px;
+	height:75px;
+	left: 312px;
+	top: 35px;
+	background: url("../images/bg-premios.png") no-repeat top center;
+	text-align: center;
+}
+header #title-premios h2{
+	color: #e6c78b;
+	position: absolute;
+	bottom: 14px;
+	font-size: 1.5em;
+	font-weight: normal;
+	width: 100%;
+	font-family: 'itc_avant_garde_pro_bkdemiBd';
+}
+article.premios{
+	float: left;
+	width: 345px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 24px;
+	margin-left: 32px;
+	position: relative;
+}
+article.premios.margin{	margin-left: 55px;}
+
+article.premios .title{
+	float: left;
+	width:288px;
+	height:73px;
+	background: url("../images/bg-title-price.png") no-repeat top center;
+	margin-bottom: 11px;
+}
+article.premios .title .icono{
+	float: left;
+	width:52px;
+	height:52px;
+	background: url("../images/icono/circle-price.png") no-repeat top center;
+	line-height: 52px;
+	text-align: center;
+	margin-left: 38px;
+	margin-top: 10px;
+	color: #dbbd83;
+	font-size: 1.9em;
+	font-family: 'itc_avant_garde_pro_mdbold';
+	text-shadow:0px 1px 0 #380000;
+	-moz-text-shadow:0px 1px 0 #380000;
+	-o-text-shadow:0px 1px 0 #380000;
+	-webkit-text-shadow:0px 1px 0 #380000;	
+}
+article.premios .title h2{
+	float: left;
+	color: #f9f1e4;
+	font-size: 0.9em;
+	font-weight: normal;
+	text-shadow:0px 1px 0 #000;
+	-moz-text-shadow:0px 1px 0 #000;
+	-webkir-text-shadow:0px 1px 0 #000;
+	-o-text-shadow:0px 1px 0 #000;	
+	font-family: 'itc_avant_garde_pro_mdmedium';
+	margin-left: 8px;
+	margin-top: 15px;	
+}
+article.premios .title h2 span{	font-family: 'itc_avant_garde_pro_mdbold';}
+
+article.premios img.premio{
+	float: left;
+	width: auto !important;
+	height: auto !important;
+	position: relative;
+	z-index: 1;
+	margin-top: 0;
+	-webkit-transition: margin 0.5s ease-out;
+	-moz-transition: margin 0.5s ease-out;
+	-o-transition: margin 0.5s ease-out;
+}
+article.premios img.premio:hover{margin-top: -8px;}
+
+article.premios .description{
+	position: absolute;
+	right: 0;
+	top: 116px;
+	width:232px;
+	height:279px;
+	background: url("../images/bg-descripcion-premios.png") no-repeat top center;
+	padding-top: 34px;
+}
+article.premios .description .line{
+	float: left;
+	width: 123px;
+	height:3px;	
+	margin:11px 0px 8px 63px;
+	background: url("../images/line-premios.png") repeat-x top center;
+}
+article.premios .description p{
+	float: left;
+	margin-left: 63px;
+	color: #4d2a1c;
+	font-size: 0.9em;
+	font-family: 'itc_avant_garde_pro_mdmedium';
+	width: 123px;
+}
+/*fin style premios*/
+
+/*style terminos*/
+section.bg-terminos1{
+	position: relative;
+	width:634px;
+	height:487px;
+	margin:50px auto;
+	background: url("../images/bg-terminos-2.png") repeat-x top center;
+}
+section.bg-terminos1 section.bg-terminos2{
+	position: relative;
+	z-index: 2;
+	width:634px;
+	height:487px;
+	margin: auto;
+	background: url("../images/bg-terminos-1.png") repeat-x top center;
+}
+section.bg-terminos1 .title{
+	height: 75px;
+	padding-left:15px;
+	padding-right: 15px;
+	position: absolute;
+	z-index: 1;
+	border: 1px solid #c39b67;
+	border-right: 2px solid #c39b67;
+	border-radius: 5px 5px 0 0;
+	background: url("../images/bg-title.png") repeat top center;
+	top: -37px;
+	left: 208px;
+	margin: auto;
+	text-align: center;
+	box-shadow: 3px 0px 11px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 3px 0px 11px rgba(0, 0, 0, 0.8);
+	-o-box-shadow: 3px 0px 11px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 3px 0px 11px rgba(0, 0, 0, 0.8);
+	max-width: 215px;
+}
+.close{
+	position: absolute;
+	right: -12px;
+    top: -6px;
+	width:37px;
+	height:3px;
+	cursor: pointer;
+	z-index: 3;
+}
+section.bg-terminos1 .title h2{
+	color: #fbeddb;
+	font-size: 1.125em;
+	font-family: 'itc_avant_garde_pro_bkdemiBd';
+	font-weight: normal;
+	line-height: 47px;
+	text-shadow:0px 1px 0 #000;
+	-webkit-text-shadow:0px 1px 0 #000;
+	-moz-text-shadow:0px 1px 0 #000;
+	-o-text-shadow:0px 1px 0 #000;	
+}
+section.bg-terminos2 a.aceptar{
+	width:186px;
+	height:58px;
+	background: url("../images/btn-aceptar.png") repeat-x top center;	
+	text-indent: -9999px;
+	position: absolute;
+	bottom: -28px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+/*fin style terminos*/
+
+section#mesa-object{
+	width: 100%;
+	height: 576px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: url("../images/bg-mesa-swf.jpg") no-repeat bottom center;	
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+}
+
+
+#home_message {
+    color: #FFFFFF;
+    font-family: 'itc_avant_garde_pro_mdmedium';
+    font-size: 35px;	
+    margin: 200px auto 0;
+    text-align: center;
+    width: 60%;	
+}
+
+#publish {
+    color: #FFFFFF;
+	font-family: 'itc_avant_garde_pro_mdmedium';
+    margin-left: 45px;
+    margin-top: 145px;
+    padding-right: 35px;
+}
+.publish_title{
+	background-color: #FFF;
+	color: #6F153A;
+	padding: 10px; 
+}
+#share_success{
+	background-color: #FFFFFF;
+    color: #6F153A;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+	display: none; 
+}
+#time_messages {
+    border: 1px solid #FFFFFF;
+    max-height: 250px;
+    overflow-y: auto;
+    padding: 20px;
+}
+#time_messages ul {
+    margin: 0;
+    padding: 0;
+}
+
+#time_messages li {
+    border: 1px solid #CCCCCC;
+    color: #FFFFFF;
+    list-style: none outside none;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+#time_messages button {
+    border: 2px inset #EEEEEE;
+    padding: 4px;
+}
+
+#time_count {
+    color: #FFFFFF;
+    font-family: 'itc_avant_garde_pro_mdmedium';
+    position: absolute;
+    right: 30px;
+    top: 20px;
+	text-align: center;
+}
+#time_count  span{
+	background-color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 12px #EEEEEE;
+    color: #6F153A;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 3px;
+    padding: 1px 35px;
+}
+.time_watch{
+	background: url("../images/arena_op.jpg") no-repeat bottom center;
+    border: 2px ridge #EEEEEE;
+    height: 110px;
+    position: relative;
+	margin: 0 auto;
+    width: 100px;
+}
+.time_fill {
+    background: url("../images/arena.jpg") no-repeat bottom center;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    width: 100px;
+}

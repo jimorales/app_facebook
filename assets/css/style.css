@@ -1,0 +1,423 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{border:0;padding:0;margin:0;}
+a, img, input:focus{outline: none;}
+.clr{clear:both;float:none;}
+body{font-size: 16px;font-family: "Arial";}
+input[type="text"]{	/*<input type="text" name="Name">*/}
+input[type="submit"]{/*<input type="submit" value="Name">*/}
+
+.wrapper-app-velez{
+	width: 810px;
+	height: 676px;
+	position: relative;
+	margin:0 auto;
+	background: url("../images/bg.jpg") repeat top center;
+}
+header{
+	width: 100%;
+	margin: auto;
+	height: 190px;
+	position: relative;
+	background: url("../images/bg-header.png") repeat top center;
+}
+header h1{
+	width:191px;
+	height:31px;
+	line-height: 31px;
+	float: left;
+	text-align: center;
+	font-family: 'giorgioregular';
+	font-size: 14px;
+	color: #d0b6a2;
+	margin-left: 155px;
+    margin-top: 40px;
+	font-weight: normal;
+	background: url("../images/title-registro.png") repeat top center;
+}
+header h1.participar{
+	margin-top: 77px;
+}
+header #flecha{
+	float: right;
+	margin-right: 28px;
+    margin-top: 27px;
+	width:319px;
+	height:122px;
+	background: url("../images/flecha-like.png") repeat top center;
+}
+header #flecha span{
+	color: #432A1A;
+    float: left;
+    font-family: 'giorgioregular';
+    font-size: 14px;
+    line-height: 13px;
+    margin-left: 59px;
+    margin-top: 56px;
+    text-align: center;
+    text-shadow:1px 1px 1px #8c6954;
+}
+header span{
+	float: left;
+	line-height: 185px;
+	margin-left: 155px;
+	color: #b8a595;
+	font-size: 18px;
+	font-family: 'giorgioregular';
+}
+header p.registro{
+	margin-top: 13px;
+	line-height: 19px;
+	margin-left: 54px;
+}
+header figure{
+	float: left;
+	margin-top: 34px;
+	margin-left: 34px;
+	width: 130px;
+	height: 107px;
+}
+section.pre-home{
+	float: none;
+	clear: both;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+section.pre-home article{
+	width: 576px;
+	height: 156px;
+	margin:85px auto 40px;
+	background: url("../images/bg-mensaje-pre-home.png") no-repeat top center;
+}
+section.pre-home article p{
+	color: #B8A595;
+    font-family: 'giorgioregular';
+    font-size: 18px;  
+    line-height: 23px;
+    position: relative;
+    text-align: center;
+    top: 47px;
+}
+section.pre-home article p strong{	
+	font-family: 'giorgiothin';
+}
+section.pre-home section a{
+	width: 275px;
+	height: 54px;
+	display: block;
+	margin: 0 auto;
+	line-height: 52px;
+	color: #b8a595;
+	font-size: 12px;
+	font-family: 'giorgioregular';
+	text-decoration: none;
+	text-align: center;
+	background: url("../images/bg-que-es-concurso.png") no-repeat top center;
+}
+header figure.logo{
+	margin-left: 54px;
+}
+header p{
+   	color: #B8A595;  
+    float: left;
+    font-family: 'giorgioregular';
+    font-size: 15px;
+    line-height: 23px;
+    margin-left: 31px;
+    margin-top: 68px;
+    position: relative;
+    text-align: center;
+    width: 385px;
+}
+header #tiempo{
+	width:199px;
+	height:45px;
+	position: absolute;
+    right: 155px;
+    top: 121px;
+    font-size: 12px;
+	display: block;
+	text-align: center;
+	line-height: 45px;
+	text-transform: uppercase;
+	color: #432a1a; 
+	text-shadow: 2px 2px 2px #705748;
+	font-family: 'giorgioregular';
+	background: url("../images/bg-tiempo-velez.png") no-repeat top center;
+}
+header #relog{
+	position: absolute;
+	right: 70px;
+	top: 0;
+	width: 81px;
+	height: 173px;
+	z-index: 3;
+	background: url("../images/bg-arena-top.png") no-repeat top center;
+}
+header #relog span{
+	color: #CBCBCB;
+    display: block;
+    float: none;
+    font-family: 'giorgioregular';
+    font-size: 16px;
+    line-height: 0;
+    margin: 145px 0 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #514945;
+}
+header #relog span.horas{
+	 margin: 18px auto;
+	 font-size: 15px;
+}
+header p strong{	
+	font-family: 'giorgiothin';
+}
+section.home{	
+    height: 501px;
+    margin-top: -18px;
+    width: 100%;
+    position: relative;
+}
+section.home #bg-inter-face{
+	width: 806px;
+	height: 440px;
+	margin: auto;
+	position: relative;
+	z-index: 4;
+	top: 21px;
+	background: url("../images/bg-interfase.png") no-repeat bottom center;
+}
+section.home #bg-inter-face h3{
+	float: left;
+	position: absolute;
+	left: 44px;
+	top: 12px;
+	color: #432a1a;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: 'giorgioregular';	
+}
+section.home #arena{
+ 	height: auto;
+    position: absolute;
+    right: 40px;
+    top: -43px;
+    width: 140px;
+    z-index: 2;
+}
+article.arenas p{
+	color: #D5C2B5;
+    float: left;
+    font-family: 'giorgioregular';
+    font-size: 12px;
+    line-height: 16px;
+    margin: 35px 0 0 83px;
+    width: 403px;
+}
+article.arenas .tiempo{
+	float: right;
+	width: 122px;
+	height: 84px;
+	margin-right: 81px;
+    margin-top: 9px;
+	background: url("../images/article-tiempo.png") no-repeat top center;
+}
+article.arenas .tiempo span{
+	color: #533727;
+	text-align: center;
+	cursor: pointer; 
+	text-shadow:1px 1px 1px #f0e5dc;
+	font-family: 'giorgioregular';
+	font-size: 13px;
+	margin-top: 19px;
+	display: block;
+}
+article.arenas .tiempo h4{
+	color: #ede2da;
+	text-align: center;
+	text-shadow:1px 1px 1px #7d6453;
+	font-family: 'giorgioregular';
+	font-size: 13px;
+	margin-top: 5px;
+	display: block;
+}
+article.arenas{
+	width: 699px;
+	height: 90px;
+	float: left;
+	background: url("../images/arenita.png") no-repeat top center;
+}
+article.arenas:first-child{
+	background: url("../images/arenita-top.png") no-repeat top center;
+}
+article.arenas:last-child{
+	height: 100px;
+	background: url("../images/arenita-bottom.png") no-repeat bottom center;
+}
+
+section.registro-left{
+	float: left;
+	width: 355px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 36px;
+	margin-left: 37px;
+}
+section.registro-left .datos{
+	width: 100%;
+	float: left;
+	margin-bottom: 18px;
+}
+section.registro-left .datos label{
+	float: left;	
+	margin-bottom: 4px;
+	color: #432a1a;
+	font-size: 13px;
+	font-family: 'giorgioregular';
+	font-weight: bold;
+	margin-left: 15px;
+}
+section.registro-left .datos input[type="text"]{
+	width: 315px;
+	height:34px;
+	background: url("../images/input.png") no-repeat bottom center;
+	padding: 0 20px 0 20px;
+	line-height: 34px;
+	color: #382214;
+	font-size: 12px;
+	font-family: 'giorgioregular';
+}
+section.registro-left .datos .my-select{
+	width: 355px;
+	height:34px;	
+	float: left;
+}
+section.registro-left .datos .my-select .select {
+	position: absolute;
+	width: 335px;
+	height: 34px;	
+	overflow: hidden;
+	background: url("../images/select-1.png") no-repeat top center transparent;	
+	padding-top: 0;
+	padding-left: 14px;
+	padding-bottom: 0;
+	padding-left: 20px;
+	line-height: 34px;
+	cursor:pointer;
+	color: #382214;
+	font-size: 12px;
+	font-family: 'giorgioregular';
+}
+section.registro-left .datos select.styled {height: 32px;}
+section.registro-left .datos .my-select2{
+	width: 355px;
+	height:34px;	
+	float: left;
+}
+section.registro-left .datos .my-select2 .fecha{
+	float: left;
+	width:115px;
+	height:34px;	
+	margin-right: 5px;
+}
+section.registro-left .datos .my-select2 .fecha .select{
+	position: absolute;
+	width: 95px;
+	height: 34px;	
+	overflow: hidden;
+	background: url("../images/select-2.png") no-repeat top center transparent;	
+	padding-top: 0;
+	padding-left: 14px;
+	padding-bottom: 0;
+	padding-left: 20px;
+	line-height: 34px;
+	cursor:pointer;
+	color: #382214;
+	font-size: 12px;
+	font-family: 'giorgioregular';
+}
+section.registro-left .datos .my-select2 .fecha.margin{
+	margin-right: 0;
+}
+a.participar{
+	float: right;
+	width:136px;
+	height:40px;
+	margin-right: 36px;
+}
+footer{
+	width: 100%;
+	background: url("../images/bg-footer.png") repeat-x top center;
+	height: 31px;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	line-height: 29px;
+}
+footer p{
+	color: #B8A595;
+    font-family: 'giorgioregular';
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 95px;
+}
+footer p.center{
+	text-align: center;
+	margin-left: auto;
+	margin-left: auto;
+}
+footer p a{
+	text-decoration: none;
+	color: #b8a595;
+}
+footer p a:hover{
+	text-decoration: underline;
+}
+a.by{
+	display: block;
+	margin: 15px auto;
+	width: 90px;
+	height: 15px;
+	float: none;
+	clear: both;
+}
+a.acepto{
+	color: #432A1A;
+    float: left;
+    font-family: 'giorgioregular';
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+a.acepto:hover{
+	text-decoration: none;
+}
+.datos input[type="submit"], button.submit{
+	width:136px;
+	height:40px;
+	background: url("../images/registrate.png") repeat-x top center;
+	float: right;
+	cursor: pointer;
+	text-indent: -9999px;
+	margin-top: -8px;
+}
+.datos .checkbox {
+	width:21px;
+	height:21px;
+	float:left;
+	padding:0px;
+	margin:0px;
+	background:url("../images/checkbox.png") no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+	outline:none;
+}
+.message {
+    font-family: 'giorgioregular';
+    font-size: 13px;
+    font-weight: bold;
+	display: none;
+}
